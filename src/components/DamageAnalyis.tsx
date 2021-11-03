@@ -1,12 +1,12 @@
 import React from "react";
 import Champion from "./Champion";
-
-//type DamageAnalysisProps = {};
+import { ChampionStatistics } from "../types";
 
 const DamageAnalysis = (): JSX.Element => {
   console.log("test");
   return (
-    <div>
+    <div className="flex justify-center items-center">
+      <Champion />
       <Champion />
     </div>
   );

@@ -3,7 +3,7 @@ import DamageAnalysis from "./components/DamageAnalyis";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen bg-[#3f6275]">
       <DamageAnalysis />
     </div>
   );
